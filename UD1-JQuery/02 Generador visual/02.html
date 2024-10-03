@@ -3,28 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="02.css">
     <title>Document</title>
+    <link rel="stylesheet" href="02.css">
 </head>
 <body>
-    <div id = "content">
-        <label >Agregar filas de forma dinamica</label>
-        <button id = "bt_add" class="btn btn-default">Agregar</button>
-        <button id = "bt_del" class="btn btn-default">Eliminar</button>
-        <table id="tabla" class="table table-bordered">
-            <thead>
-                <tr>
-                    <td>Nº</td>
-                    <td>descripción</td>
-                    <td>Precio</td>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+    <button id="btn-add-row"> Añadir Fila </button>
+    <button id="btn-delete-row"> Eliminar Fila </button>
+    <button id="btn-add-column"> Añadir Columna </button>
+    <button id="btn-delete-column"> Eliminar Columna </button>
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <table id="table">
+
+    </table>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="02.js"></script>
 </body>
 </html>
